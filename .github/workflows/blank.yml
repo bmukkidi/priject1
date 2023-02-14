@@ -28,7 +28,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Java ersion
-        run: kava -version
+        run: java -version
       - name: Maven version
         run: mvn --version
       - name: python version
